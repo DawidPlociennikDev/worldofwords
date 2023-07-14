@@ -26,7 +26,7 @@ composer install
 php artisan key:generate
 ```
 
-* enter project [[http://localhost:8000](http://localhost:8000)](http://127.0.0.1:8000/words)
+* enter project [http://127.0.0.1:8000/words](http://127.0.0.1:8000/words)
 
 * seed database
 ```
