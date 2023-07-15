@@ -10,6 +10,7 @@ class WordController extends Controller
 {
     public function randomWords()
     {
+
         $words = Word::all();
 
         return view('words', compact('words'));

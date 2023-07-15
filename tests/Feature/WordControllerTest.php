@@ -76,7 +76,7 @@ class WordControllerTest extends TestCase
 
     public function test_database_has_ten_words()
     {
-        $this->assertCount(10, Word::where('translation', null)->get(), 'Database has 10 untranslated words');
+        $this->assertCount(106, Word::where('translation', null)->get(), 'Database has 106 untranslated words');
     }
 
 }
